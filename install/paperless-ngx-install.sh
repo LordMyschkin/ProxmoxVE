@@ -22,8 +22,8 @@ $STD apt-get install -y \
   optipng \
   libpq-dev \
   libmagic-dev \
-  mime-support \
-  libzbar0 \
+#  mime-support \
+  libzbar0t64 \
   poppler-utils \
   default-libmysqlclient-dev \
   automake \
@@ -50,7 +50,7 @@ $STD apt-get install -y \
   pngquant \
   zlib1g \
   tesseract-ocr \
-  tesseract-ocr-eng
+  tesseract-ocr-deu
 msg_ok "Installed OCR Dependencies"
 
 msg_info "Setup JBIG2"
