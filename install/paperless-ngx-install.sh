@@ -14,7 +14,7 @@ network_check
 update_os
 
 msg_info "Installing Dependencies (Patience)"
-$STD apt-get install -y \
+$STD apt install -y \
   redis \
   build-essential \
   imagemagick \
@@ -23,7 +23,7 @@ $STD apt-get install -y \
   libpq-dev \
   libmagic-dev \
 #  mime-support \
-  libzbar0t64 \
+  libzbar0 \
   poppler-utils \
   default-libmysqlclient-dev \
   automake \
